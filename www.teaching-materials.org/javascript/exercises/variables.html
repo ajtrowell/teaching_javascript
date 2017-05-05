@@ -118,7 +118,7 @@ console.log(fahrenheit + '°F is ' + fahrenheitInC + '°C');
   <script>
 
 function showSolution(num) {
-  if (isCorrectBinary()) {
+  if (isCorrectHex()) {
     document.getElementById('solution' + num).style.display = 'block';
   }
 }
@@ -130,6 +130,15 @@ function isCorrectBinary() {
   var responseBin = prompt(testDec,"0b"); 
   return testBin === responseBin;
 }
+
+function isCorrectHex() {
+  // Asks for hex version of decimal number as a lock.
+  var testDec = Math.floor(Math.random() * 256);
+  var testHex = dec2hex(testDec); 
+  var responseHex = prompt(testDec,"0x"); 
+  return testHex === responseHex;
+}
+
 
 function dec2bin(dec) {
   //both dec and bin are string
@@ -145,6 +154,22 @@ function bin2dec(bin) {
   dec = parseInt(bin,2);
   return dec.toString();
 }
+
+function dec2hex(dec) {
+  //both dec and bhexin are strings
+  dec = parseInt(dec,10); // Convert to integer
+  var hex;
+  hex = dec.toString(16) // Outputs string
+  return hex;
+}
+
+function hex2dec(hex) {
+  //both dec and hex are strings
+  var dec;
+  dec = parseInt(hex,16);
+  return dec.toString();
+}
+
 
   </script>
   </body>
