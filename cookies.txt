@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.creativecommons.org	TRUE	/	FALSE	1999999999	__cfduid	d766fc6bef8fcbb66001aafcb9f9306c01494018387
+dropboxusercontent.com	TRUE	/	FALSE	1999999999	uc_session	cOCt51pvktAJNdCAtjAUyUbHCqb45IXoQOzDsqqrxEyBcaI0ublCCOR2EZ7P5ySY
+.licensebuttons.net	TRUE	/	FALSE	1999999999	__cfduid	d88e1bc883494bb9a1df0b167e83345581494018422
+.davidwalsh.name	TRUE	/	FALSE	1999999999	__cfduid	d50c68318fb03c9c97e418034129383231494018487
+
