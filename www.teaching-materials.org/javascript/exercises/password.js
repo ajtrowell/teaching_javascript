@@ -20,7 +20,7 @@ function isCorrectHex() {
   var testDec = Math.floor(11 + Math.random() * 256);
   var testHex = dec2hex(testDec); 
   var responseHex = prompt(testDec,"0x"); 
-  return testHex === responseHex;
+  return testHex.toUpperCase() === responseHex.toUpperCase();
 }
 
 
